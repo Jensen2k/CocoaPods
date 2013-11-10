@@ -12,11 +12,13 @@ Pod::Spec.new do |s|
   }
   s.author       = { "Simon Corsin" => "simon@corsin.me" }
   s.source       = {
-    :git => 'https://github.com/faceleg/ACEView.git',
-    :commit => 'cdffebefb4',
+    :git => 'https://github.com/Jensen2k/SCAudioVideoRecorder.git',
+    :commit => 'c0392db110',
     :submodules => true
   }
-  s.platform     = :osx
+  s.platform     = :ios
+  s.requires_arc = true
+  s.ios.deployment_target = '6.0'
   s.frameworks   = ['CoreMedia', 'CoreVideo', 'AudioToolbox', 'AssetsLibrary', 'AVFoundation', 'CoreGraphics']
   s.source_files = 'SCAudioVideoRecorder/**/*.{h,m}'
 end
