@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.author       = { "Simon Corsin" => "simon@corsin.me" }
   s.source       = {
     :git => 'https://github.com/Jensen2k/SCAudioVideoRecorder.git',
-    :commit => '57300be35e',
+    :commit => 'acf3b52907',
     :submodules => true
   }
   s.platform     = :ios
