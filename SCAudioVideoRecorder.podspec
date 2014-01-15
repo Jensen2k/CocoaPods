@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "SCAudioVideoRecorder"
-  s.version      = "0.1"
+  s.version      = "0.2"
   s.summary      = "A Vine like audio/video recorder in Objective-C."
   s.description  = <<-DESC
                     A Vine like audio/video recorder in Objective-C.
