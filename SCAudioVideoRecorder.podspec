@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "SCAudioVideoRecorder"
-  s.version      = "0.2"
+  s.version      = "0.2.1"
   s.summary      = "A Vine like audio/video recorder in Objective-C."
   s.description  = <<-DESC
                     A Vine like audio/video recorder in Objective-C.
@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.author       = { "Simon Corsin" => "simon@corsin.me" }
   s.source       = {
     :git => 'https://github.com/Jensen2k/SCAudioVideoRecorder.git',
-    :commit => '1099922d7e',
+    :commit => '110a28a',
     :submodules => true
   }
   s.platform     = :ios
