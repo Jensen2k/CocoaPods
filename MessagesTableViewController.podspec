@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.author       = { "Tristan Himmelman" => "https://github.com/tristanhimmelman" }
   s.source       = {
     :git => 'https://github.com/Jensen2k/MessagesTableViewController.git',
-    :commit => '0832f78f9f',
+    :commit => '67e0ed0dc9',
     :submodules => true
   }
   s.platform     = :ios
