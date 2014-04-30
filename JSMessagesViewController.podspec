@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.social_media_url  = 'https://twitter.com/jesse_squires'
   s.license     = 'MIT'
   s.authors     = { 'Jesse Squires' => 'jesse.squires.developer@gmail.com' }
-  s.source      = { :git => 'https://github.com/Jensen2k/MessagesTableViewController.git' }
+  s.source      = { :git => 'https://github.com/Jensen2k/MessagesTableViewController.git', :commit => '796c692' }
   s.platform      = :ios, '6.0'
   s.source_files    = 'JSMessagesViewController/Classes/**/*'
   s.resources     = 'JSMessagesViewController/Resources/**/**/*'
